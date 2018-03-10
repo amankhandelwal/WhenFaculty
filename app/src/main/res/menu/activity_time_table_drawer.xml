@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="TimeTable"><menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/monday"
+            android:icon="@drawable/dotted"
+            android:title="Monday" />
+        <item
+            android:id="@+id/tuesday"
+            android:icon="@drawable/dotted"
+            android:title="Tuesday" />
+        <item
+            android:id="@+id/wednesday"
+            android:icon="@drawable/dotted"
+            android:title="Wednesday" />
+        <item
+            android:id="@+id/thursday"
+            android:icon="@drawable/dotted"
+            android:title="Thursday" />
+        <item
+            android:id="@+id/friday"
+            android:icon="@drawable/dotted"
+            android:title="Friday" />
+    </group>
+    </menu></item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
